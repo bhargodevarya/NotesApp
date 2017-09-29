@@ -1,0 +1,10 @@
+Adding a note
+EPIC:Should be able to add a note
+  TASK:
+    1.model the NOTE
+    2.create command structure
+
+command format:
+Deleting a note
+updating a note
+list a/all node(s)

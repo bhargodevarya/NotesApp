@@ -1,0 +1,4 @@
+/*This file should contain the structure of the NOTE model.
+Note should have a title, content, and metadata.
+MD should not be saved with the content.
+MD should contain, author, createdDate, updatedOn, tags*/
