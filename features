@@ -1,10 +1,12 @@
 Adding a note
 EPIC:Should be able to add a note
   TASK:
-    1.model the NOTE
-    2.create command structure
-
-command format:
+    1.model the NOTE //DONE
+    2.create service endpoint
+    3.create a service class responsible for hadling NOTES
 Deleting a note
 updating a note
 list a/all node(s)
+
+TECH REQUIREMENTS:
+Create a generic framework that allows creation of end points

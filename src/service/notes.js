@@ -1,5 +1,10 @@
-const addNote = (title,body) => {{{}}
-  console.log(`adding a note with title ${title} and content ${body}`);
+'use strict';
+
+const addNote = (note) => {
+  //title has to be unique
+  //fetch all notes, check if te title is unique
+  //yes, save; else throw exception, show message to user
+  console.log(`adding a note with title ${note.getTitle()}`);
 }
 
 const listNotes = () => {

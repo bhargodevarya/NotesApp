@@ -20,8 +20,14 @@ const command = argv._;
 const createNote = (title, content, tags) => {
   const myNote = new Note(title, content, tags)
   console.log(myNote.getTitle(), myNote.getTags(), myNote.getContent(), myNote.getCreatedDate(), myNote.getUpdatedOn());
+  return myNote
 }
 
+const addNote = (title, content, tags) => {
+  const note = createNote(title, content, tags)
+  notes.addNote(note)
+  //return myNote
+}
 //validating user input
 
 const validate = (argv) => {
@@ -65,5 +71,6 @@ const validate = (argv) => {
 
 module.exports = {
   createNote,
-  validate
+  validate,
+  addNote
 }

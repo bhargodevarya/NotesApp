@@ -2,13 +2,16 @@
   "name": "nodedemo",
   "version": "1.0.0",
   "description": "",
-  "main": "App.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/app.js"
   },
   "author": "Bhargodev Arya",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.16.1",
+    "js-joda": "^1.6.1",
     "lodash": "^4.17.4",
     "yargs": "^8.0.2"
   }
